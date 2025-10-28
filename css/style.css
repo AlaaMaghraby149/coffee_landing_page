@@ -1,5 +1,6 @@
 header{
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
     background:url(../images/coffee_image.png) no-repeat center center/cover;
     & nav{
         padding: 2rem;
@@ -351,7 +352,7 @@ section#feedback{
         }
     }
     & .container2{
-        /* position: relative; */
+        position: relative;
         height: 450px;
         max-width: 1200px;
         margin: 0 auto;
@@ -384,7 +385,8 @@ section#feedback{
         & .person{
             width: 112px;
             position: absolute;
-            left: 44%;
+            left: 40%;
+            transform: translateX(-50%);
             bottom: -18%;
         }
     }
