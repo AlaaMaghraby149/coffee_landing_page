@@ -385,7 +385,7 @@ section#feedback{
         & .person{
             width: 112px;
             position: absolute;
-            left: 40%;
+            left: 46%;
             transform: translateX(-50%);
             bottom: -18%;
         }
